@@ -4,6 +4,10 @@
 # Log file
 *.log
 
+target/
+
+*.jdbc
+
 # BlueJ files
 *.ctxt
 
