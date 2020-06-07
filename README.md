@@ -19,7 +19,9 @@ choose but it will require this user be added to each schema in the database. Th
 I'll leave that out.
 
 The project also contains some extra classes dedicated to an application user which are not part of the database.
-These are there to add the (what I believe) are best practice of having a non-root user in the database.
+These are there to add the (what I believe) are best practice of having a non-root user for enterprise applications
+in the database. In other words I would not recommend using the admin user as the default server user.
+
 
 There is also a 'converter' class used to assist with the provided SQL Server Geometry entity. I'll let you
 learn how to connect that one. After all there has to be some learning in the process here ;-)
